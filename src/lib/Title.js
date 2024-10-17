@@ -1,18 +1,47 @@
 import React from 'react';
 
-const Header = () => {
+const Title = () => {
   return (
-    <header>
-      <h1>My Application</h1>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<ul>
+  <li>
+    <h2>0</h2>
+    <div>
+      <p>0</p>
+    </div>
+      
+  </li>
+
+  <li>
+    <h2>1</h2>
+    <div>
+      <p>1</p>
+    </div>
+      
+  </li> 
+
+  <li>
+    <h2>2</h2>
+    <div>
+      <p>2</p>
+    </div>
+  </li> 
+    
+  <li>
+    <h2>3</h2>
+    <div>
+      <p>3</p>
+    </div>
+      
+  </li>  
+
+  <li>
+    <h2>4</h2>
+    <div>
+      <p>4</p>
+    </div>
+  </li>
+</ul>
   );
 };
 
-export default Header;
+export default Title;
