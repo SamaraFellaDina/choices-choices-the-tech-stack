@@ -5,7 +5,10 @@ import AccesibilityGraph from '../lib/AccesibilityGraph/AccesibilityGraph'
 import API from './API/route'
 
 
-export default function Home({children,}) {
+export default async function Home({children}) {
+  let API = await fetch('https://fdnd-agency.directus.app/items')
+  let data = await API.json()
+  console.log(data)
   return (
     <main>
     <ErrorResult />
