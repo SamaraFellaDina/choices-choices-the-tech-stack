@@ -1,48 +1,20 @@
 import React from 'react';
-import styles from './ErrorResult.module.css'
+import styles from './Title.module.css'
 
-const Error = () => {
+const Title = ({sitesData}) => {
   return (
-<ul>
-  <li>
-    <h2>0</h2>
-    <div>
-      <p>0</p>
-    </div>
-      
-  </li>
-
-  <li>
-    <h2>1</h2>
-    <div>
-      <p>1</p>
-    </div>
-      
-  </li> 
-
-  <li>
-    <h2>2</h2>
-    <div>
-      <p>2</p>
-    </div>
-  </li> 
-    
-  <li>
-    <h2>3</h2>
-    <div>
-      <p>3</p>
-    </div>
-      
-  </li>  
-
-  <li>
-    <h2>4</h2>
-    <div>
-      <p>4</p>
-    </div>
-  </li>
-</ul>
+<section>
+  <div>
+    <h1>{sitesData.title}/home</h1>
+    <p>Automatische Scan</p>
+  </div>
+  {/* <nav>
+    <button><Icon name="arrow-left" /></button>
+     <span>Aug.</span>
+    <button><Icon name="arrow-right" /></button>
+  </nav> */}
+</section>
   );
 };
 
-export default Error;
+export default Title;

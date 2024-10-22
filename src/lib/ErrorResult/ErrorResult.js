@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from './ErrorResult.module.css'
-;
+import styles from './ErrorResult.module.css';
 
 
 const ErrorResult = ({scansData}) => {
