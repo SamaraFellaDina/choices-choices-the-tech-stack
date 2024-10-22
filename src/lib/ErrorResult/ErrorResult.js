@@ -1,48 +1,43 @@
 import React from 'react';
 import styles from './ErrorResult.module.css'
+;
 
-const Error = () => {
+
+const ErrorResult = ({scansData}) => {
   return (
 <ul>
   <li>
-    <h2>0</h2>
+    <h2>{scansData.result[0].title}</h2>
     <div>
-      <p>0</p>
+      <p>{scansData.result[0].amount}</p>
     </div>
-      
   </li>
-
   <li>
-    <h2>1</h2>
+    <h2>{scansData.result[1].title}</h2>
     <div>
-      <p>1</p>
+      <p>{scansData.result[1].amount}</p>
     </div>
-      
-  </li> 
-
+  </li>
   <li>
-    <h2>2</h2>
+    <h2>{scansData.result[2].title}</h2>
     <div>
-      <p>2</p>
+      <p>{scansData.result[2].amount}</p>
     </div>
-  </li> 
-    
+  </li>
   <li>
-    <h2>3</h2>
+    <h2>{scansData.result[3].title}</h2>
     <div>
-      <p>3</p>
+      <p>{scansData.result[3].amount}</p>
     </div>
-      
-  </li>  
-
+  </li>
   <li>
-    <h2>4</h2>
+    <h2>{scansData.result[4].title}</h2>
     <div>
-      <p>4</p>
+      <p>{scansData.result[4].amount}</p>
     </div>
   </li>
 </ul>
   );
 };
 
-export default Error;
+export default ErrorResult;
