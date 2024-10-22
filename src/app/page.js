@@ -1,12 +1,19 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Title from '../lib/Title.js'
+import ErrorResult from '../lib/ErrorResult/ErrorResult';
+import AccesibilityGraph from '../lib/AccesibilityGraph/AccesibilityGraph'
 
-export default function Home() {
+
+export default function Home({children,}) {
   return (
     <main>
-    <Title />
+    <ErrorResult />
+    <AccesibilityGraph />
+    
       <h1>Test</h1>
     </main>
   );
 }
+
+
+

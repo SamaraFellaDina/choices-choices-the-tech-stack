@@ -1,6 +1,7 @@
 import React from 'react';
+import styles from './AccesibilityGraph.module.css'
 
-const Title = () => {
+const Error = () => {
   return (
 <ul>
   <li>
@@ -44,4 +45,4 @@ const Title = () => {
   );
 };
 
-export default Title;
+export default Error;
