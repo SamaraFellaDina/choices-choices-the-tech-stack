@@ -3,9 +3,9 @@ import styles from './Title.module.css'
 
 const Title = ({sitesData}) => {
   return (
-<section>
-  <div>
-    <h1>{sitesData.title}/home</h1>
+<section className={styles.section}>
+  <div className={styles.div}>
+    <h1 className={styles.h1}>{sitesData.title}/home</h1>
     <p>Automatische Scan</p>
   </div>
   {/* <nav>

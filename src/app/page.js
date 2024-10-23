@@ -18,9 +18,8 @@ export default async function Home() {
   const object = 0;
   const sitesData = sites.data[object];
   const scansData = scans.data[object];
-  console.log(sitesData)
   return (
-    <main>
+    <main className={styles.main}>
       <Title sitesData={sitesData}/>
       <AutomaticScan scansData={scansData}/>
       <ErrorResult scansData={scansData}/>
@@ -29,5 +28,4 @@ export default async function Home() {
     </main>
   );
 }
-
 
