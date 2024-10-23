@@ -18,6 +18,7 @@ export default async function Home() {
   const object = 0;
   const sitesData = sites.data[object];
   const scansData = scans.data[object];
+  // console.log(scansData.result[1].title) 
   return (
     <main className={styles.main}>
       <Title sitesData={sitesData}/>
