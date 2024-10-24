@@ -39,15 +39,15 @@ const AutomaticScan = ({ scansData }) => {
   };
   
   return (
-    <section className={styles.section}>
+    <section className={styles.section}>      
+    <div className={styles.div}>
       <h2 className={styles.h2} >{scansData.title}</h2>
       <p>{scansData.description}</p>
-      <div className={styles.div}>
+    </div>
         <figure className={styles.figure}>
-        <Doughnut data={data} options={options} />
-        <figcaption className={styles.figcaption}>{percentage}</figcaption>
+          <Doughnut data={data} options={options} />
+          <figcaption className={styles.figcaption}>{percentage}%</figcaption>
         </figure>
-      </div>
     </section>
   );
 };

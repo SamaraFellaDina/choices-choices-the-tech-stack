@@ -3,7 +3,9 @@ import styles from './AccesibilityGraph.module.css';
 
 const AccesibilityGraph = ({scansData}) => {
   return ( 
-  <p>AccesibilityGraph</p>
+    <section className={styles.section}>
+      <h2>Toegankelijkheid</h2>
+    </section>
   );
 };
 

@@ -23,18 +23,19 @@
   box-shadow: var(--box-shadow);
   list-style: none;
   padding: var(--average-padding);
+
   @media only screen and (max-width: 1600px) {
     height: 100%;
     margin-bottom: var(--average-gap)
   }
 }
 
-.li.h2 {
+.h2 {
   padding-bottom: 0.5em;
   font-size: 20px;
 }
 
-.li.div {
+.div {
   --size: 2em;
   display: flex;
   justify-content: space-between;
