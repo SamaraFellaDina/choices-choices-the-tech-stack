@@ -4,6 +4,7 @@
   box-shadow: var(--box-shadow);
   padding: var(--average-padding);
   grid-area: 4 / 1 / 5 / 3;
+  margin-block-end: 1em;
 }
 
 .canvas {
