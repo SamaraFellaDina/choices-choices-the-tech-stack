@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Title.module.css'
-import Icon from '@/lib/icon'
+import Icon from './lib/icon'
 
 const Title = ({sitesData}) => {
   return (

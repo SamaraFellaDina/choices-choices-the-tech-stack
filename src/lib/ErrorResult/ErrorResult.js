@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './ErrorResult.module.css';
-import Icon from '@/lib/Icon'
+import Icon from './lib/Icon'
 
 
 
